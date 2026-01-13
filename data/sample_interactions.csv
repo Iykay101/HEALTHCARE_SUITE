@@ -1,0 +1,7 @@
+drug_a,drug_b,severity,description
+warfarin,ibuprofen,major,Increased bleeding risk (NSAIDs may potentiate anticoagulant effects).
+warfarin,amiodarone,major,Amiodarone can increase warfarin effect; monitor INR closely.
+simvastatin,clarithromycin,major,Macrolides can raise statin levels; risk of rhabdomyolysis.
+metformin,iodinated contrast,moderate,May increase risk of lactic acidosis; consider temporary hold.
+sertraline,tramadol,major,Increased risk of serotonin syndrome and seizures.
+lisinopril,spironolactone,moderate,Hyperkalemia risk; monitor potassium.

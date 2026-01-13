@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "healthcare-suite"
+version = "0.1.0"
+description = "Drug interaction checker, SIR simulator, and appointment scheduler."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "pydantic>=2.0",
+  "python-dateutil>=2.8",
+  "matplotlib>=3.7",
+  "plotly>=5.18",
+  "flask>=3.0",
+  "streamlit>=1.33",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+  "ruff>=0.4",
+  "mypy>=1.8",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q --cov=healthcare_suite --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
