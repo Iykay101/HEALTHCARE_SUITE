@@ -37,11 +37,11 @@ and support clinical workflows.
 ---
 
 ## Project Structure
-
 healthcare_suite/
 ├── apps/ # GUI applications (Flask / Streamlit)
 ├── data/ # CSV files and sample datasets
-├── src/healthcare_suite/ # Core source code
+├── src/
+│ └── healthcare_suite/
 │ ├── interactions/ # Drug interaction logic
 │ ├── sir/ # SIR epidemiological model
 │ └── scheduler/ # Appointment scheduling system
