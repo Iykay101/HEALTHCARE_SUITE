@@ -37,7 +37,6 @@ and support clinical workflows.
 ---
 
 ## Project Structure
-## Project Structure
 
 healthcare_suite/
 ├── apps/                  # GUI applications (Flask / Streamlit)
@@ -51,6 +50,7 @@ healthcare_suite/
 ├── README.md
 ├── pyproject.toml
 └── requirements.txt
+
 
 
 yaml
