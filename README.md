@@ -37,18 +37,21 @@ and support clinical workflows.
 ---
 
 ## Project Structure
+## Project Structure
+
 healthcare_suite/
-├── apps/ # GUI applications (Flask / Streamlit)
-├── data/ # CSV files and sample datasets
+├── apps/                  # GUI applications (Flask / Streamlit)
+├── data/                  # CSV files and sample datasets
 ├── src/
-│ └── healthcare_suite/
-│ ├── interactions/ # Drug interaction logic
-│ ├── sir/ # SIR epidemiological model
-│ └── scheduler/ # Appointment scheduling system
-├── tests/ # Unit tests
+│   └── healthcare_suite/
+│       ├── interactions/  # Drug interaction logic
+│       ├── sir/           # SIR epidemiological model
+│       └── scheduler/     # Appointment scheduling system
+├── tests/                 # Unit tests
 ├── README.md
 ├── pyproject.toml
 └── requirements.txt
+
 
 yaml
 Copy code
