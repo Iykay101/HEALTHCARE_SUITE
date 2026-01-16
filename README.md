@@ -28,7 +28,7 @@ and support clinical workflows.
 - Priority-based appointment scheduling
 - Emergency appointments scheduled before routine ones
 - Time-slot management using Python datetime
-- Simple greedy algorithm for efficient scheduling
+- Simple algorithm for efficient scheduling
 
 ### 4. User Interfaces
 - Command-line interface for core functionality
@@ -36,7 +36,7 @@ and support clinical workflows.
 
 ---
 
-## Project Structure
+
 ## Project Structure
 - `apps/` – GUI applications (Flask / Streamlit)
 - `data/` – CSV files and datasets
