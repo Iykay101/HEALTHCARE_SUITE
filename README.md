@@ -88,8 +88,5 @@ bash
 Copy code
 pytest
 Notes
-This project was developed for academic purposes to demonstrate healthcare software
-design principles and algorithmic problem-solving.
-
-yaml
-Copy code
+This project is for academic and learning purposes to demonstrate healthcare software
+design principles and algorithmic problem solving.
