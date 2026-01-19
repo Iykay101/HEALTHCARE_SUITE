@@ -71,22 +71,20 @@ Copy code
 ## How to Run
 
 ### Install dependencies
-```bash
-pip install -r requirements.txt
-Run Streamlit app
-bash
-Copy code
-streamlit run apps/streamlit_app.py
-Run Flask app
-bash
-Copy code
-python apps/flask_app.py
-Testing
-Unit tests are provided in the tests/ directory.
+`pip install -r requirements.txt`
 
-bash
-Copy code
-pytest
-Notes
+### Run Streamlit app
+`streamlit run apps/streamlit_app.py`
+
+### Run Flask app
+`python apps/flask_app.py`
+
+### Testing
+Unit tests are provided in the `tests/` directory.
+
+`pytest`
+
+### Notes
 This project is for academic and learning purposes to demonstrate healthcare software
 design principles and algorithmic problem solving.
+
